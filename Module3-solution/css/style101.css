@@ -1,0 +1,162 @@
+* {
+	box-sizing: border-box;
+}
+
+.navbar-brand h1{
+  	font-size: 2.2em;
+ 	border: 0 0 10px 10px;
+  	color: black;
+	font-weight: bold;
+	text-align: left;
+	margin-left: 15px;
+	margin-top: -5px;
+	text-shadow: 0 1px 5px 1px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#header-nav {
+  border: 0;
+  height: 150px;
+  background-color: #6B8E23	;
+  color: #FFFFFF;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -35px;
+}
+#nav-list{
+	height: 80px;
+}
+#nav-list a{
+  color: black;
+  text-align: center;
+  padding: 0;
+}
+#nav-list li{
+	height: 20px;
+	padding: 0;
+}
+.item{
+	height: 20px;
+	padding: 0;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+hr {
+  width: 100%;
+  border-color: black;
+  margin:0;
+}
+body {
+	background-color:#FFE4E1;
+}
+
+h2{
+	font-family: Times New Roman, Times, serif;
+	font-size: 3em;
+}
+
+p {
+	padding: 10px;
+	margin: 0;
+}
+@media (min-width: 767px){
+	.item{
+		padding: 20px 20px 0 20px;
+		font-size: 150%;
+		margin-top: 10px;
+	}
+}
+.container {
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+section {
+	border:	1px solid black;
+	background-color: #D2691E;
+	width: 100%;
+	height: auto;
+	font-family: Helvetica;
+	color: black;
+	position: relative;
+	overflow: auto;
+	font-size: 1.2em;
+}
+
+#chicken {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Arial,serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	color: white;
+	background-color: red;
+	opacity: 0.8;
+}
+
+#beef {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Arial,serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	color: white;
+	background-color: blue;
+	opacity: 0.8;
+}
+
+#sushi {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Arial,serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	background-color: green;
+	color: white;
+	padding: 5px;
+	opacity: 0.8;
+}
+
+#chicken-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#beef-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#sushi-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+
